@@ -6,7 +6,7 @@ const drivers =  ["Milo", "Otis", "Garfield"]
  }
 
 function destructivelyPrependDriver(name) {
-        drivers.slice('Bob')
+        drivers.unshift('Bob')
 }
 
 function destructivelyRemoveLastDriver(name) {
