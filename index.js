@@ -19,6 +19,3 @@ function destructivelyRemoveFirstDriver(name) {
 
 let appendDriver = drivers.slice()
 
-function appendDriver() {
-  
-}
