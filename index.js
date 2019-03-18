@@ -6,6 +6,6 @@ const drivers =  ["Milo", "Otis", "Garfield"]
  }
 
 function destructivelyPrependDriver(name) {
-        drivers.shift('Bob')
+        drivers.slice('Bob')
 }
 
