@@ -29,4 +29,3 @@ function prependDriver(name) {
      driversCopy2.unshift(name)
      return driverscopy2
 }
-
