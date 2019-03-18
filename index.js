@@ -19,13 +19,13 @@ function destructivelyRemoveFirstDriver(name) {
 
 
 function appendDriver(name) {
-     let driversCopy = drivers.slice()
-     driversCopy.push(name)
+     let driverscopy = drivers.slice()
+     driverscopy.push(name)
      return driverscopy
 }
 
 function prependDriver(name) {
-     let driversCopy2 = drivers.slice()
-     driversCopy2.unshift(name)
+     let driverscopy2 = drivers.slice()
+     driverscopy2.unshift(name)
      return driverscopy2
 }
