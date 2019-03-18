@@ -38,5 +38,6 @@ function removeLastDriver(name) {
 
 function removeFirstDriver(name) {
    let driverscopy4 = drivers.slice()
-   driverscopy4.
+   driverscopy4.shift(name)
+   return driverscopy4
 }
