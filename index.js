@@ -9,3 +9,6 @@ function destructivelyPrependDriver(name) {
         drivers.slice('Bob')
 }
 
+function destructivelyRemoveLastDriver(name) {
+        drivers.
+}
