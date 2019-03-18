@@ -32,5 +32,6 @@ function prependDriver(name) {
 
 function removeLastDriver(name) {
     let driverscopy3 = drivers.slice
-    driverscopy3.
+    driverscopy3.pop(name)
+    return driverscopy3
 }
