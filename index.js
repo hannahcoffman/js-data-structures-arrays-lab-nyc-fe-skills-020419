@@ -17,4 +17,4 @@ function destructivelyRemoveFirstDriver(name) {
         drivers.shift()
 }
 
-let drivers 
+let driverscopy = 
