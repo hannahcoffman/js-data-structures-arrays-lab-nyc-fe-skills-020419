@@ -29,3 +29,8 @@ function prependDriver(name) {
      driverscopy2.unshift(name)
      return driverscopy2
 }
+
+function removeLastDriver(name) {
+    let driverscopy3 = drivers.slice
+    driverscopy3.
+}
